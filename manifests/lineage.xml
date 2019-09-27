@@ -7,9 +7,13 @@
   <remote name="lineage17.0"
           fetch="https://github.com/LineageOS"
           revision="lineage-17.0" />
+  <remote name="lineage17.1"
+          fetch="https://github.com/LineageOS"
+          revision="lineage-17.1" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" remote="lineage17.0" clone-depth="1" />
+  <project path="prebuilts/r8" name="android_prebuilts_r8" remote="lineage17.1" clone-depth="1" />
   <project path="prebuilts/tools-custom" name="android_prebuilts_tools-lineage" remote="lineage" clone-depth="1" />
 
 </manifest>
