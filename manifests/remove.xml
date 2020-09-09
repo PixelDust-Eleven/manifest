@@ -22,6 +22,9 @@
   <remove-project name="device/google/bonito" />
   <remove-project name="device/google/bonito-kernel" />
   <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="device/google/coral"/>
+  <remove-project name="device/google/coral-kernel"/>
+  <remove-project name="device/google/coral-sepolicy"/>
   <remove-project name="device/google/crosshatch"/>
   <remove-project name="device/google/crosshatch-kernel"/>
   <remove-project name="device/google/crosshatch-sepolicy"/>
@@ -30,7 +33,11 @@
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/sunfish"/>
+  <remove-project name="device/google/sunfish-kernel"/>
+  <remove-project name="device/google/sunfish-sepolicy"/>
   <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/trout" />
   <remove-project name="device/google/wahoo" />
   <remove-project name="device/google/wahoo-kernel" />
   <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
