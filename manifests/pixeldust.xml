@@ -64,7 +64,6 @@
   <!-- System -->
   <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pd11" />
   <project path="system/bt" name="android_system_bt" remote="pd11" />
-  <project path="system/chre" name="android_system_chre" remote="pd11" />
   <project path="system/core" name="android_system_core" remote="pd11" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="pd11" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pd11" />
