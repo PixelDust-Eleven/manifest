@@ -74,6 +74,7 @@
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="pd11" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd11" >
     <copyfile src="build.sh" dest="rom-build.sh" />
+    <linkfile src="tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="pd11" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pd11" />
