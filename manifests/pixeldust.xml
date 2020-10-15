@@ -104,4 +104,11 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pd11" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pd11" />
 
+  <!-- AOSP Different Revisions -->
+  <project path="external/google-fonts/barlow" name="platform/external/google-fonts/barlow" revision="android11-d1-release" />
+  <project path="external/google-fonts/big-shoulders-text" name="platform/external/google-fonts/big-shoulders-text" revision="android11-d1-release" />
+  <project path="external/google-fonts/fraunces" name="platform/external/google-fonts/fraunces" revision="android11-d1-release" />
+  <project path="external/google-fonts/karla" name="platform/external/google-fonts/karla" revision="android11-d1-release" />
+  <project path="external/google-fonts/lustria" name="platform/external/google-fonts/lustria" revision="android11-d1-release" />
+
 </manifest>
