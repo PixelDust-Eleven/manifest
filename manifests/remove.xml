@@ -54,6 +54,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/guice" />
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/qcom/display" />
@@ -73,6 +74,7 @@
   <remove-project name="platform/packages/apps/SpareParts" />
   <remove-project name="platform/packages/apps/Terminal" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/platform_testing" />
   <remove-project name="platform/prebuilts/abi-dumps/vndk" /> 

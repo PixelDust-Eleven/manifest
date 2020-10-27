@@ -38,6 +38,7 @@
   <project path="external/motorola/faceunlock" name="pupal-inc/android_external_prebuilt_fu" remote="gitlab" revision="11" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="pd11" />
   <project path="frameworks/base" name="android_frameworks_base" remote="pd11" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pd11" />
 
@@ -55,6 +56,7 @@
   <project path="packages/apps/Settings/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pd11" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pd11" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="pd11" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pd11" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pd11" />
 
   <!-- Prebuilts -->
@@ -77,6 +79,7 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
     <linkfile src="tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
+  <project path="vendor/themes" name="android_vendor_themes" remote="pd11" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="pd11" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pd11" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pd11" />
