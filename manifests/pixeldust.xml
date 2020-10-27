@@ -72,6 +72,7 @@
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="pd11" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="pd11" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pd11" />
+  <project path="system/vold" name="android_system_vold" remote="pd11" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="pd11" />
