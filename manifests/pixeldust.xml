@@ -56,6 +56,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pd11" />
   <project path="packages/apps/Settings/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pd11" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pd11" />
+  <project path="packages/apps/Themes" name="android_packages_apps_Themes" remote="pd11" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="pd11" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pd11" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pd11" />
