@@ -33,6 +33,7 @@
   <project path="platform_testing" name="android_platform_testing" remote="pd11" />
 
   <!-- External -->
+  <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="pd11" />
   <project path="external/guice" name="android_external_guice" remote="pd11" />
   <project path="external/selinux" name="android_external_selinux" remote="pd11" />
   <project path="external/motorola/faceunlock" name="pupal-inc/android_external_prebuilt_fu" remote="gitlab" revision="11" />
