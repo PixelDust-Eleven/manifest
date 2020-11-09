@@ -54,6 +54,7 @@
   <project path="bionic" name="android_bionic" remote="pd11" />
 
   <!-- Packages -->
+  <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="pd11" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pd11" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="pd11" />
   <project path="packages/apps/Settings/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pd11" />
