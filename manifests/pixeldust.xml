@@ -87,6 +87,7 @@
   </project>
   <project path="vendor/themes" name="android_vendor_themes" remote="pd11" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="pd11" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="pd11" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pd11" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pd11" />
 
