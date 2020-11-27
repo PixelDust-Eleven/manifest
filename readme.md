@@ -41,7 +41,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/PixelDust-Eleven/manifest -b 11
+$ repo init -u https://github.com/PixelDust-Eleven/manifest -b 11-caf
 ```
 
 ### Downloading the source tree ###
