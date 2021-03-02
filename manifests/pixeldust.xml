@@ -80,6 +80,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="pd11" />
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="pd11" />
 
   <!-- Recovery -->
   <project path="bootable/recovery" name="android_bootable_recovery" remote="pd11" />
