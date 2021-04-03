@@ -38,6 +38,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="pd11" />
+  <project path="libcore" name="android_libcore" remote="pd11" />
   <project path="platform_testing" name="android_platform_testing" remote="pd11" />
 
   <!-- External -->
