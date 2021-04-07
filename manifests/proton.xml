@@ -16,6 +16,8 @@
   <project name="android_external_python_cpython2" path="external/python/cpython2" remote="proton" groups="proton" />
   <remove-project name="platform/system/security" />
   <project name="android_system_security" path="system/security" remote="proton" groups="proton" />
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
+  <project name="android_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" remote="proton" groups="proton" />
   <remove-project name="platform/system/linkerconfig" />
   <project name="android_system_linkerconfig" path="system/linkerconfig" remote="proton" groups="proton" />
   <remove-project name="platform/external/libpng" />
