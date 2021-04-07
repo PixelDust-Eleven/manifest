@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+
+  <remote name="proton" fetch="https://github.com/ProtonAOSP" revision="rvc" />
+
+  <!-- Remove existing repositories -->
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/libunwind" />
+
+  <remove-project name="platform/external/compiler-rt" />
+  <project name="android_external_compiler-rt" path="external/compiler-rt" remote="proton" groups="proton" />
+  <remove-project name="platform/external/honggfuzz" />
+  <project name="android_external_honggfuzz" path="external/honggfuzz" remote="proton" groups="proton" />
+  <remove-project name="platform/external/python/cpython2" />
+  <project name="android_external_python_cpython2" path="external/python/cpython2" remote="proton" groups="proton" />
+  <remove-project name="platform/system/linkerconfig" />
+  <project name="android_system_linkerconfig" path="system/linkerconfig" remote="proton" groups="proton" />
+  <remove-project name="platform/external/libpng" />
+  <project name="android_external_libpng" path="external/libpng" remote="proton" groups="proton" />
+  <remove-project name="platform/external/libjpeg-turbo" />
+  <project name="android_external_libjpeg-turbo" path="external/libjpeg-turbo" remote="proton" groups="proton" />
+  <remove-project name="platform/tools/metalava" />
+  <project name="android_tools_metalava" path="tools/metalava" remote="proton" groups="proton" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="proton" groups="proton" />
+  <remove-project name="platform/external/sqlite" />
+  <project name="android_external_sqlite" path="external/sqlite" remote="proton" groups="proton" />
+  <remove-project name="platform/external/jemalloc_new" />
+  <project name="android_external_jemalloc_new" path="external/jemalloc_new" remote="proton" groups="proton" />
+
+  <!-- Add new repositories -->
+  <project name="android_external_zlib-ng" path="external/zlib-ng" remote="proton" groups="proton" />
+
+</manifest>

@@ -830,5 +830,6 @@
 
   <!-- More snippets -->
   <include name="manifests/lineage.xml"/>
+  <include name="manifests/proton.xml"/>
 
 </manifest>
