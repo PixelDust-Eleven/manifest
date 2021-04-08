@@ -76,6 +76,7 @@
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="pd11" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="pd11" />
   <project path="packages/apps/Settings/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pd11" />
+  <project path="packages/apps/PotatoPlugins" name="android_packages_apps_PotatoPlugins" remote="pd11" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pd11" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="pd11" />
   <project path="packages/apps/Themes" name="android_packages_apps_Themes" remote="pd11" />
