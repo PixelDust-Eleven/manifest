@@ -61,6 +61,7 @@
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="pd11" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="pd11" />
   <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" remote="pd11" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="pd11" revision="11" />
 
   <!-- AOSP legacy hardware -->
   <project path="hardware/qcom/msm8998" name="platform/hardware/qcom/msm8998" groups="qcom_msm8998,pdk-qcom" remote="aosp_r17" />
