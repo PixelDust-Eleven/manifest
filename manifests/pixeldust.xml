@@ -14,6 +14,10 @@
   <remote  name="pd11"
            fetch="https://github.com/PixelDust-Eleven"
            revision="refs/heads/11" />
+
+  <remote  name="feb21"
+           fetch="https://github.com/PixelDust-Eleven"
+           revision="refs/tags/feb21" />
   
     <remote  name="pdd"
            fetch="https://github.com/PixelDust-Devices"
@@ -24,7 +28,7 @@
 
   <!-- Build -->
   <project path="art" name="android_art" remote="pd11" />
-  <project path="build/make" name="android_build" groups="pdk" remote="pd11" >
+  <project path="build/make" name="android_build" groups="pdk" remote="feb21" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -33,12 +37,12 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="pd11" >
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="feb21" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="build/blueprint" name="android_build_blueprint" remote="pd11" />
-  <project path="platform_testing" name="android_platform_testing" remote="pd11" />
+  <project path="platform_testing" name="android_platform_testing" remote="feb21" />
 
   <!-- External -->
   <project path="external/airbnb-lottie" name="android_external_airbnb-lottie" remote="pd11" />
@@ -48,13 +52,13 @@
   <project path="external/motorola/faceunlock" name="pupal-inc/android_external_prebuilt_fu" remote="gitlab" revision="11" />
 
   <!-- Frameworks -->
-  <project path="frameworks/av" name="android_frameworks_av" remote="pd11" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="pd11" />
+  <project path="frameworks/av" name="android_frameworks_av" remote="feb21" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="feb21" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="pd11" />
   <project path="frameworks/native" name="android_frameworks_native" remote="pd11" />
 
   <!-- Hardware -->
-  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="pd11" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="feb21" />
   <project path="hardware/pixeldust/interfaces" name="android_hardware_pixeldust_interfaces" remote="pd11" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="pd11" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="pd11" />
@@ -64,47 +68,47 @@
   <project path="hardware/qcom/neuralnetworks/hvxservice" name="platform/hardware/qcom/neuralnetworks/hvxservice" groups="wahoo" remote="aosp_r17" />
 
   <!-- Native -->
-  <project path="bionic" name="android_bionic" remote="pd11" />
+  <project path="bionic" name="android_bionic" remote="feb21" />
 
   <!-- Packages -->
   <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="pd11" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="pd11" />
   <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="pd11" />
-  <project path="packages/apps/Settings/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="pd11" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="pd11" />
+  <project path="packages/apps/Settings/PixelDustSettings" name="android_packages_apps_PixelDustSettings" remote="feb21" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="feb21" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="pd11" />
   <project path="packages/apps/Themes" name="android_packages_apps_Themes" remote="pd11" />
-  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="pd11" />
+  <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="feb21" />
   <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="pd11" />
-  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="pd11" />
-  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="pd11" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="feb21" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="feb21" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="pd11" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="pd11" />
 
   <!-- Recovery -->
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="pd11" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="feb21" />
 
   <!-- System -->
-  <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="pd11" />
-  <project path="system/bt" name="android_system_bt" remote="pd11" />
-  <project path="system/core" name="android_system_core" remote="pd11" />
+  <project path="device/pixeldust/sepolicy" name="android_device_pixeldust_sepolicy" remote="feb21" />
+  <project path="system/bt" name="android_system_bt" remote="feb21" />
+  <project path="system/core" name="android_system_core" remote="feb21" />
   <project path="system/incremental_delivery" name="android_system_incremental_delivery" remote="pd11" />
-  <project path="system/netd" name="android_system_netd" remote="pd11" />
-  <project path="system/security" name="android_system_security" remote="pd11" />
-  <project path="system/sepolicy" name="android_system_sepolicy" remote="pd11" />
+  <project path="system/netd" name="android_system_netd" remote="feb21" />
+  <project path="system/security" name="android_system_security" remote="feb21" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="feb21" />
   <project path="system/update_engine" name="android_system_update_engine" remote="pd11" />
-  <project path="system/vold" name="android_system_vold" remote="pd11" />
+  <project path="system/vold" name="android_system_vold" remote="feb21" />
 
   <!-- Vendor -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="pd11" />
-  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd11" >
+  <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="feb21" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <linkfile src="tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/support" name="android_vendor_support" remote="pd11" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="pd11" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="feb21" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="pd11" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pd11" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pd11" />
