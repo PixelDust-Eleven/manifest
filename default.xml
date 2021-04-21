@@ -829,7 +829,8 @@
   <include name="manifests/remove.xml"/>
   <include name="manifests/pixeldust.xml"/>
 
-  <!-- Lineage snippets -->
+  <!-- More snippets -->
+  <include name="manifests/aosip.xml"/>
   <include name="manifests/lineage.xml"/>
 
 </manifest>

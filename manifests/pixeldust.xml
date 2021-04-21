@@ -104,16 +104,12 @@
   <project path="system/vold" name="android_system_vold" remote="pd11" />
 
   <!-- Vendor -->
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="pd11" />
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd11" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <linkfile src="tools/merge-aosp.sh" dest="merge-aosp.sh" />
   </project>
   <project path="vendor/support" name="android_vendor_support" remote="pd11" />
   <project path="vendor/themes" name="android_vendor_themes" remote="pd11" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="pd11" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="pd11" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="pd11" />
 
   <!-- AOSP Different Revisions -->
   <project path="external/google-fonts/barlow" name="platform/external/google-fonts/barlow" revision="android11-d1-release" />
