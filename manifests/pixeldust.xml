@@ -111,6 +111,8 @@
   <project path="vendor/pixeldust" name="android_vendor_pixeldust" remote="pd11" >
     <copyfile src="build.sh" dest="rom-build.sh" />
     <linkfile src="tools/merge-aosp.sh" dest="merge-aosp.sh" />
+    <linkfile src="build/tools/os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+    <linkfile src="build/tools/os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
   </project>
   <project path="vendor/support" name="android_vendor_support" remote="pd11" />
   <project path="vendor/themes" name="android_vendor_themes" remote="pd11" />
