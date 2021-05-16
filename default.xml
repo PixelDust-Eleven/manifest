@@ -830,7 +830,6 @@
   <include name="manifests/pixeldust.xml"/>
 
   <!-- More snippets -->
-  <include name="manifests/aosip.xml"/>
   <include name="manifests/lineage.xml"/>
 
 </manifest>
