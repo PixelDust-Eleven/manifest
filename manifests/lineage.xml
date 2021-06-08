@@ -119,6 +119,7 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" revision="lineage-18.1" remote="lineage" />
 
   <!-- LineageOS additions -->
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="lineage" />
   <project path="external/unrar" name="android_external_unrar" remote="lineage" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="lineage" />
